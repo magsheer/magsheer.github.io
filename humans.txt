@@ -1,0 +1,2 @@
+This site is built with jekyll and hosted on github.
+Greeshma writes posts on the site. Theme is created by Matt Harzewski.
