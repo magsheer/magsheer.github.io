@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "First Post"
+title:  "About"
 date:   2017-05-12
 categories: random
 ---
 
-Just testing out a new look for the blog and this is the first post. More 
-posts to come soon.
+Just testing out a new look for the website. 
+More updates to come soon.
