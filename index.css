@@ -64,6 +64,19 @@ a.gray:hover {
   background-color: rgba(148, 148, 148, 0.2);
 }
 
+a:link{
+  color:white;
+}
+
+a:visited{
+  color:white;
+}
+
+a:hover{
+  color: gray;
+}
+
+
 html {
   background-color: #282828;
 }
