@@ -1784,22 +1784,15 @@ input, select, textarea {
 		cursor: default;
 	}
 
-		#nav a {
-			position: relative;
-			display: inline-block;
-			color: #ffffff;
-			width: 1em;
-			height: 1em;
-			line-height: 0.9em;
-			font-size: 2.5em;
-			margin: 0 0.25em 0 0.25em;
-			opacity: 0.35;
-			outline: 0;
-			-moz-transition: opacity .25s ease-in-out;
-			-webkit-transition: opacity .25s ease-in-out;
-			-ms-transition: opacity .25s ease-in-out;
-			transition: opacity .25s ease-in-out;
-		}
+			#nav a {
+				display: inline-block;
+				color: #ffffff;
+				text-decoration: none;
+				font-size: 1.2em;
+				margin: 0 1.5em;
+				opacity: 0.75;
+				transition: opacity 0.25s ease-in-out;
+			}
 
 			#nav a.icon:before {
 				padding-right: 0;
@@ -1864,9 +1857,13 @@ input, select, textarea {
 					opacity: 1.0;
 				}
 
-			#nav a.active {
-				opacity: 1.0;
-			}
+				#nav a.active {
+					color: #833a5d;
+					font-weight: 700;
+					text-decoration: underline;
+					text-underline-offset: 4px;
+					border-bottom: none;
+				  }
 
 				#nav a.active:after {
 					border-bottom-width: 0.5em;
